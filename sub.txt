@@ -1,3 +1,6 @@
-public int sub(int a, int b){
+public int sub(int a, int b) throws Exception {
+	if(a - b > Integer.max){
+		throw new Exception("Exception: Exceed Integer.MAX value ")
+	}
 	return a - b;
 }
