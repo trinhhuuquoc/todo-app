@@ -1,0 +1,4 @@
+public boolean isStrong(int number){
+	/TODO :strong
+	return true;
+}
